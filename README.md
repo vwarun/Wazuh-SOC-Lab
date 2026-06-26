@@ -38,7 +38,7 @@ The primary goal is to gain hands-on experience with SOC operations — includin
 </div>
 
 > 📐 See [`Lab_architecture`](Lab_architecture.png) for the full lab topology diagram.
-[Main Interfac](Lab_architecture.png)
+
 ---
 
 ## Project Documentation
