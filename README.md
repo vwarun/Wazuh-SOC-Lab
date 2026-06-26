@@ -74,7 +74,7 @@ Topics covered:
 - Windows Event ID **4625** (failed logon)
 - Brute force detection rules in Wazuh
 
-→ [`docs/SSH-brute-force-detection`](docs/Brute_Force.pdf)
+→ [`docs/SSH-brute-force-detection`](docs/Brute_force.pdf)
 
 ---
 
