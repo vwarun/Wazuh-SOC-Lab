@@ -112,7 +112,7 @@ Features:
 - Automated file reputation and hash lookups
 - Malware detection and threat enrichment within alerts
 
-→ [`docs/Virustotal-integration.`](docs/VirusTotal_integration)
+→ [`docs/Virustotal-integration.`](docs/VirusTotal_integration.pdf)
 
 ---
 
