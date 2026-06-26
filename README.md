@@ -37,7 +37,7 @@ The primary goal is to gain hands-on experience with SOC operations — includin
 
 </div>
 
-> 📐 See [`docs/Lab_architecture.png`](Lab_architecture.png) for the full lab topology diagram.
+> 📐 See [`Lab_architecture`](Lab_architecture.png) for the full lab topology diagram.
 
 ---
 
@@ -48,24 +48,12 @@ Each report below focuses on a specific component of the SOC lab.
 ### 1. 🛠️ Wazuh Installation & Configuration
 Covers deploying the **Wazuh Manager, Indexer, and Dashboard** on Ubuntu Server, connecting Windows endpoints, and verifying agent–manager communication.
 
-→ [`docs/01-wazuh-installation.md`](docs/01-wazuh-installation.md)
+→ [`docs/Wazuh_configuration`](docs/Wazuh_configuration.pdf)
 
 ---
 
-### 2. 🪟 Windows Event Logging
-Documents Windows Event Logs, common Event IDs, PowerShell logging, and how Windows events are collected and centralized in Wazuh.
 
-Topics covered:
-- Windows Event Viewer (Security, Application Logs)
-- Key Event IDs for security monitoring
-- PowerShell Script Block Logging
-- Log forwarding to Wazuh
-
-→ [`docs/02-windows-event-logging.md`](docs/02-windows-event-logging.md)
-
----
-
-### 3. 📁 File Integrity Monitoring (FIM)
+### 2. 📁 File Integrity Monitoring (FIM)
 Demonstrates how Wazuh monitors files and directories in real time to detect unauthorized changes.
 
 Activities performed:
@@ -73,11 +61,11 @@ Activities performed:
 - Detecting file creation, modification, and deletion
 - Viewing FIM alerts inside the Wazuh Dashboard
 
-→ [`docs/03-file-integrity-monitoring.md`](docs/03-file-integrity-monitoring.md)
+→ [`docs/File_integrity_monitoring`](docs/File_integrity_monitoring.pdf)
 
 ---
 
-### 4. 🔐 SSH Brute Force Detection
+### 3. 🔐 SSH Brute Force Detection
 Simulates an SSH brute force attack using **Hydra** against a Windows system running OpenSSH, and detects it with Wazuh.
 
 Topics covered:
@@ -86,11 +74,11 @@ Topics covered:
 - Windows Event ID **4625** (failed logon)
 - Brute force detection rules in Wazuh
 
-→ [`docs/04-ssh-brute-force-detection.md`](docs/04-ssh-brute-force-detection.md)
+→ [`docs/SSH-brute-force-detection`](docs/Brute_Force.pdf)
 
 ---
 
-### 5. 🔥 pfSense Firewall Integration
+### 4. 🔥 pfSense Firewall Integration
 Integrates pfSense firewall logs with Wazuh for network-level visibility and anomaly detection.
 
 Topics covered:
@@ -99,11 +87,11 @@ Topics covered:
 - Firewall log collection in Wazuh
 - Custom decoders and detection rules
 
-→ [`docs/05-pfsense-integration.md`](docs/05-pfsense-integration.md)
+→ [`docs/Pfsense-integration`](docs/Pfsense_integration.pdf)
 
 ---
 
-### 6. 🦦 Suricata IDS Integration
+### 5. 🦦 Suricata IDS Integration
 Covers integrating the **Suricata IDS/IPS** with Wazuh for network intrusion detection.
 
 Activities performed:
@@ -112,11 +100,11 @@ Activities performed:
 - Monitoring network traffic
 - Forwarding Suricata alerts to Wazuh
 
-→ [`docs/06-suricata-integration.md`](docs/06-suricata-integration.md)
+→ [`docs/Suricata-integration`](docs/Suricata_integration.pdf)
 
 ---
 
-### 7. 🧬 VirusTotal Integration
+### 6. 🧬 VirusTotal Integration
 Demonstrates enriching Wazuh security alerts with external threat intelligence via the **VirusTotal API**.
 
 Features:
@@ -124,7 +112,7 @@ Features:
 - Automated file reputation and hash lookups
 - Malware detection and threat enrichment within alerts
 
-→ [`docs/07-virustotal-integration.md`](docs/07-virustotal-integration.md)
+→ [`docs/Virustotal-integration.`](docs/VirusTotal_integration)
 
 ---
 
@@ -174,3 +162,6 @@ Through this project, I gained practical experience in:
 <div align="center">
   <sub>Built for learning · Powered by open-source · Monitor • Detect • Respond</sub>
 </div>
+
+
+                                                           @wakaa
