@@ -48,7 +48,7 @@ Each report below focuses on a specific component of the SOC lab.
 ### 1. 🛠️ Wazuh Installation & Configuration
 Covers deploying the **Wazuh Manager, Indexer, and Dashboard** on Ubuntu Server, connecting Windows endpoints, and verifying agent–manager communication.
 
-→ [`docs/Wazuh_configuration`](docs/Wazuh_configuration.pdf)
+→ [`Wazuh_configuration`](docs/Wazuh_configuration.pdf)
 
 ---
 
@@ -61,7 +61,7 @@ Activities performed:
 - Detecting file creation, modification, and deletion
 - Viewing FIM alerts inside the Wazuh Dashboard
 
-→ [`docs/File_integrity_monitoring`](docs/File_integrity_monitoring.pdf)
+→ [`File_integrity_monitoring`](docs/File_integrity_monitoring.pdf)
 
 ---
 
@@ -74,7 +74,7 @@ Topics covered:
 - Windows Event ID **4625** (failed logon)
 - Brute force detection rules in Wazuh
 
-→ [`docs/SSH-brute-force-detection`](docs/Brute_force.pdf)
+→ [`SSH-brute-force-detection`](docs/Brute_force.pdf)
 
 ---
 
@@ -87,7 +87,7 @@ Topics covered:
 - Firewall log collection in Wazuh
 - Custom decoders and detection rules
 
-→ [`docs/Pfsense-integration`](docs/Pfsense_integration.pdf)
+→ [`Pfsense-integration`](docs/Pfsense_integration.pdf)
 
 ---
 
@@ -100,7 +100,7 @@ Activities performed:
 - Monitoring network traffic
 - Forwarding Suricata alerts to Wazuh
 
-→ [`docs/Suricata-integration`](docs/Suricata_integration.pdf)
+→ [`Suricata-integration`](docs/Suricata_integration.pdf)
 
 ---
 
@@ -112,7 +112,7 @@ Features:
 - Automated file reputation and hash lookups
 - Malware detection and threat enrichment within alerts
 
-→ [`docs/Virustotal-integration.`](docs/VirusTotal_integration.pdf)
+→ [`Virustotal-integration.`](docs/VirusTotal_integration.pdf)
 
 ---
 
@@ -129,7 +129,7 @@ Topics covered:
 - Wazuh Log Collection and Analysis
 - Threat Hunting using Windows and Sysmon Events
 
-→ [`docs/Windows_Event_Logs_and_Wazuh_Log_Collection`](docs/Windows_Event_Logs_and_Wazuh_Log_Collection.pdf)
+→ [`Logs&Sysmon_ingestion`](docs/Logs&Sysmon_ingestion.pdf)
 
 ---
 
