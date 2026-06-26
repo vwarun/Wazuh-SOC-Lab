@@ -116,6 +116,23 @@ Features:
 
 ---
 
+### 7. 📋 Windows Event Logs & Wazuh Log Collection
+
+Explains how Windows Event Logs and Sysmon were configured and integrated with Wazuh to improve endpoint visibility and security monitoring.
+
+Topics covered:
+- Windows Event Viewer
+- Security, System, and Application Logs
+- PowerShell Operational Logging
+- Sysmon Installation and Configuration
+- Sysmon Event Collection
+- Wazuh Log Collection and Analysis
+- Threat Hunting using Windows and Sysmon Events
+
+→ [`docs/Windows_Event_Logs_and_Wazuh_Log_Collection`](docs/Windows_Event_Logs_and_Wazuh_Log_Collection.pdf)
+
+---
+
 ## Tools & Technologies
 
 | Category | Tool |
